@@ -40,10 +40,10 @@ var localeName = 'en',
 
 var valine = new Valine();
 // 2. Installation language:
-valine.installLocale(localeName,localeMode)
+valine.installLocale(localeName,localeMode);
 // 3.Initialization Valine
 valine.init({
-    el:'#vcomment',
+    el:'#comment',
     appId:'<APP_ID>',
     appKey:'<APP_KEY>',
     lang:localeName
