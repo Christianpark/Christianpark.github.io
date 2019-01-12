@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Chris Blog</title>
+  
+  <subtitle>크리스의 일상과 기술의 블로그</subtitle>
+  <link href="/feed.xml" rel="self"/>
+  
+  <link href="http://christianpark.github.io/"/>
+  <updated>2019-01-11T12:10:32.394Z</updated>
+  <id>http://christianpark.github.io/</id>
+  
+  <author>
+    <name>ChrisPark</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-01-11</title>
+    <link href="http://christianpark.github.io/2019/01/11/2019-01-11/"/>
+    <id>http://christianpark.github.io/2019/01/11/2019-01-11/</id>
+    <published>2019-01-11T09:54:05.000Z</published>
+    <updated>2019-01-11T12:10:32.394Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Optional-app"><a href="#Optional-app" class="headerlink" title="Optional app."></a>Optional app.</h1><p>title: #post’s title<br>cover_img: #show in home page, the post card header<br>feature_img: #show in post page, content header<br>description: the llatter part of post application  (for meta)<br>keywords: keywords for searching (for meta)<br>date: #YY:MM:DD<br>tags: #making tagcloud. when you click those tags, you can check it relations with same tagName<br>archive:</p>]]></content>
+    
+    <summary type="html">
+    
+      the llatter part of post application
+    
+    </summary>
+    
+      <category term="first" scheme="http://christianpark.github.io/categories/first/"/>
+    
+    
+      <category term="first" scheme="http://christianpark.github.io/tags/first/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>scaffoldtest</title>
+    <link href="http://christianpark.github.io/2019/01/09/scaffoldtest/"/>
+    <id>http://christianpark.github.io/2019/01/09/scaffoldtest/</id>
+    <published>2019-01-09T14:59:38.000Z</published>
+    <updated>2019-01-11T12:10:56.128Z</updated>
+    
+    <summary type="html">
+    
+      the llatter part of post application
+    
+    </summary>
+    
+      <category term="test" scheme="http://christianpark.github.io/categories/test/"/>
+    
+    
+      <category term="hexo" scheme="http://christianpark.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2019-01-09</title>
+    <link href="http://christianpark.github.io/2019/01/09/2019-01-09/"/>
+    <id>http://christianpark.github.io/2019/01/09/2019-01-09/</id>
+    <published>2019-01-09T14:24:02.000Z</published>
+    <updated>2019-01-11T12:18:29.825Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="안녕…"><a href="#안녕…" class="headerlink" title="안녕…"></a>안녕…</h1><h2 id="하이"><a href="#하이" class="headerlink" title="하이?"></a>하이?</h2><h3 id="헬로우"><a href="#헬로우" class="headerlink" title="헬로우?"></a>헬로우?</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span>(<span class="params">execHighlight</span>)</span>&#123;</span><br><span class="line"> <span class="keyword">var</span> bar = Client.X;</span><br><span class="line"> <span class="keyword">var</span> foo = <span class="number">100</span>; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      the llatter part of post application
+    
+    </summary>
+    
+      <category term="first" scheme="http://christianpark.github.io/categories/first/"/>
+    
+    
+      <category term="newStuff`s" scheme="http://christianpark.github.io/tags/newStuff-s/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>first-post</title>
+    <link href="http://christianpark.github.io/2019/01/09/first-post/"/>
+    <id>http://christianpark.github.io/2019/01/09/first-post/</id>
+    <published>2019-01-09T13:40:28.000Z</published>
+    <updated>2019-01-11T12:10:38.289Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="타이틀"><a href="#타이틀" class="headerlink" title="타이틀"></a>타이틀</h1><p>나의 첫번째 포스트입니다.<br>…<br>…</p>]]></content>
+    
+    <summary type="html">
+    
+      the llatter part of post application
+    
+    </summary>
+    
+      <category term="first" scheme="http://christianpark.github.io/categories/first/"/>
+    
+    
+      <category term="hexo" scheme="http://christianpark.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://christianpark.github.io/2019/01/09/hello-world/"/>
+    <id>http://christianpark.github.io/2019/01/09/hello-world/</id>
+    <published>2019-01-09T13:00:28.000Z</published>
+    <updated>2019-01-11T12:10:50.419Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      the llatter part of post application
+    
+    </summary>
+    
+      <category term="test" scheme="http://christianpark.github.io/categories/test/"/>
+    
+    
+      <category term="hexo" scheme="http://christianpark.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+</feed>
