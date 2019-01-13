@@ -10,6 +10,13 @@
     </url>
 
     <url>
+        <loc>http://christianpark.github.io/tags/hexo/</loc>
+        <lastmod>2019-01-11T12:10:56.128Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>http://christianpark.github.io/tags/newStuff-s/</loc>
         <lastmod>2019-01-11T12:18:29.825Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -17,8 +24,8 @@
     </url>
 
     <url>
-        <loc>http://christianpark.github.io/tags/hexo/</loc>
-        <lastmod>2019-01-12T15:41:19.493Z</lastmod>
+        <loc>http://christianpark.github.io/tags/hexo-blog/</loc>
+        <lastmod>2019-01-13T07:32:22.062Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
