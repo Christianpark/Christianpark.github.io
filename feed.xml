@@ -6,7 +6,7 @@
   <link href="/feed.xml" rel="self"/>
   
   <link href="http://christianpark.github.io/"/>
-  <updated>2019-01-12T15:38:46.792Z</updated>
+  <updated>2019-01-12T15:41:19.493Z</updated>
   <id>http://christianpark.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://christianpark.github.io/2019/01/12/%ED%97%A5%EC%86%8C%20%EB%B8%94%EB%A1%9C%EA%B7%B8%20%EB%A7%8C%EB%93%A4%EA%B8%B0/"/>
     <id>http://christianpark.github.io/2019/01/12/헥소 블로그 만들기/</id>
     <published>2019-01-12T14:57:20.000Z</published>
-    <updated>2019-01-12T15:38:46.792Z</updated>
+    <updated>2019-01-12T15:41:19.493Z</updated>
     
     <content type="html"><![CDATA[<h2 id="알아야-할-사전지식"><a href="#알아야-할-사전지식" class="headerlink" title="알아야 할 사전지식"></a>알아야 할 사전지식</h2><h3 id="1-GithibPages"><a href="#1-GithibPages" class="headerlink" title="1. GithibPages"></a>1. GithibPages</h3><p>기본적으로  <strong>gitHubPages</strong>를 생성 알아야 깃헙 블로그를 제작할 수 있습니다.     </p><h3 id="2-HTML-CSS-Javascript"><a href="#2-HTML-CSS-Javascript" class="headerlink" title="2. HTML, CSS, Javascript"></a>2. HTML, CSS, Javascript</h3><p>HTML 과 CSS, Javascript를 알아야 본인이 원하는대로 수정할 수 있습니다.</p><h3 id="3-NodeJs"><a href="#3-NodeJs" class="headerlink" title="3. NodeJs"></a>3. NodeJs</h3><p>대부분의 플러그인을 NodeJs를 통해 설치하기 때문에 약간의 지식을 알아야합니다.  </p><blockquote><p>사이트: <a href="https://nodejs.org" target="_blank" rel="noopener">NodeJs</a>      </p></blockquote><h3 id="4-MarkDown문법"><a href="#4-MarkDown문법" class="headerlink" title="4. MarkDown문법"></a>4. MarkDown문법</h3><p>마크다운 문법은 텍스트 기반의 마크업 언얼로 2004년 존그루버에 의해 만들어졌습니다. HTML의 마크업 언어를 알고 계신다면 쉽고 빠르게 컨텐츠 작성이 가능합니다.  </p><blockquote><p>사이트: <a href="https://gist.github.com/Christianpark/8bd6f96c6d4f518dc3f9fd738bfec1cc" target="_blank" rel="noopener">MarkDown</a> 에서 마크다운을 배울 수 있습니다. </p></blockquote>]]></content>
     
