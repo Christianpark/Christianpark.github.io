@@ -1,6 +1,6 @@
 code,
 pre {
-    font-family: "Roboto Mono", Monaco, courier, monospace;
+    font-family: "Roboto Mono", Monaco, courier, monospace, 'Nanum Gothic', sans-serif;
     font-size: 0.9em;
     background-color: #f8f8f8;
     -webkit-font-smoothing: initial;
@@ -204,7 +204,7 @@ em {
     text-align: center;
     line-height: 20px;
     font-weight: bold;
-    font-family: "Dosis", "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+    font-family: "Dosis", "Source Sans Pro", "Helvetica Neue", Arial, sans-serif, 'Nanum Gothic', sans-serif;
     font-size: 14px;
 }
 
