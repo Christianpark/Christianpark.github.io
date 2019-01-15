@@ -170,7 +170,7 @@
 <li>github URL을 복사해서 GUI 프로그램을 이용한 클론방법.  </li>
 <li>github Desktop을 이용한 로컬에 저장하는 방법.   </li>
 <li>ZIP 파일을 다운받아서 로컬에 저장하는 방법.  </li>
-<li>테마를 가진 주인의 레포지토리를 <em>Fork</em> 해서 등록하는 방법.<br><img alt="clone방법" class="post-img b-lazy" href="/img/clone_01.png" data-src="/img/clone_01.png"><hr>
+<li>테마를 가진 주인의 레포지토리를 <em>Fork</em> 해서 등록하는 방법.<br><img alt="clone방법" class="post-img b-lazy" href="/img/clone_01.PNG" data-src="/img/clone_01.PNG"><hr>
 </li>
 </ul>
 <p>저는 github GUI 프로그램인 소스트리와 명령프롬프트(gitBash)를 이용해서 클론했어요.  </p>
@@ -178,9 +178,9 @@
 <li>소스트리를 다운받고, 본인의 깃허브 아이디와 연동합니다. 연동 한 후에,  <strong>New tap</strong>을 열어 <strong>Create</strong>를 합니다. 목적지의 경로는 본인이 만들 블로그의 로컬 디스크 경로입니다.<br>계정에는 이미 <em>username.github.io</em> 라는 저장소가 있기 때문에 체크를 해제합니다.  </li>
 </ul>
 <p>블로그를 만들 폴더의 경로를 정해서 생성해주세요. ex) D:\GitHubPages    </p>
-<p><img alt="소스트리세팅1" class="post-img b-lazy" href="/img/sourceTreeSetting_01.png" data-src="/img/sourceTreeSetting_01.png">  </p>
+<p><img alt="소스트리세팅1" class="post-img b-lazy" href="/img/sourceTreeSetting_01.PNG" data-src="/img/sourceTreeSetting_01.PNG">  </p>
 <p>폴더를 생성했으면,  설정에 들어가서 원격이름을 <strong>origin</strong> URL/경로를 <strong><a href="https://github.com/본인아이디(이름).github.io" target="_blank" rel="noopener">https://github.com/본인아이디(이름).github.io</a></strong> 라고 칩니다.</p>
-<p><img alt="소스트리세팅2" class="post-img b-lazy" href="/img/sourceTreeSetting_02.png" data-src="/img/sourceTreeSetting_02.png">  </p>
+<p><img alt="소스트리세팅2" class="post-img b-lazy" href="/img/sourceTreeSetting_02.PNG" data-src="/img/sourceTreeSetting_02.PNG">  </p>
 <ul>
 <li>생성 후에 gitBash를 켜줍니다. 처음 생성할때는 username 과 useremail을 통해 사용자 등록이 필요합니다.   </li>
 </ul>
@@ -201,7 +201,7 @@
 <p>npm이란 Node Pakage Manager의 줄임표현이며 node.js로 만들어진 pakage(module)을 관리해주는 툴입니다.<br>원문:<a href="https://docs.npmjs.com/about-npm/index.html" target="_blank" rel="noopener">노드js원문</a><br>추가내용:<a href="https://m.blog.naver.com/magnking/220961896609" target="_blank" rel="noopener">노드js설명</a></p>
 </blockquote>
 <ol start="3">
-<li><p>기본테마에서 Clone한 테마로 변경하기<br>에이터를 실행하여 블로그이름의 폴더를 열어줍니다. 아래의 사진의 <strong>_config.yml</strong> 파일로 이동해줍니다. (테마 안에 있는 config.yml이 아니에요.)<br><img alt="테마변경_01" class="post-img b-lazy" href="/img/deploy_01.png" data-src="/img/deploy_01.png"><br>_config.yml을 실행하고 아래로 내리다보면  </p>
+<li><p>기본테마에서 Clone한 테마로 변경하기<br>에이터를 실행하여 블로그이름의 폴더를 열어줍니다. 아래의 사진의 <strong>_config.yml</strong> 파일로 이동해줍니다. (테마 안에 있는 config.yml이 아니에요.)<br><img alt="테마변경_01" class="post-img b-lazy" href="/img/deploy_01.PNG" data-src="/img/deploy_01.PNG"><br>_config.yml을 실행하고 아래로 내리다보면  </p>
 <figure class="highlight dts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta"># Deployment</span></span><br><span class="line"><span class="meta">## Docs: https:<span class="comment">//hexo.io/docs/deployment.html</span></span></span><br><span class="line"><span class="symbol">deploy:</span></span><br><span class="line"><span class="symbol">  type:</span> git</span><br><span class="line"><span class="symbol">  repo:</span> https:<span class="comment">//github.com/username/username.github.io</span></span><br></pre></td></tr></table></figure>
 <p>라고 나오는데<strong>type:</strong>에는 git,  <strong>repo:</strong> 항목에 자신의 블로그 주소를 넣으시면 됩니다.<br>간혹 다른 테마에서는 <strong>branch</strong> 항목도 있는데 master라고 적으시면 됩니다.  </p>
 </li>
