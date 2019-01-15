@@ -2,8 +2,6 @@
 <html lang="ko">
 
 
- 
-
 
 
 
@@ -29,20 +27,20 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Archives | Chris Blog</title>
+<title>github를 이용한 hexo 블로그 만들기 (2) - casper Theme | Chris Blog</title>
  <meta name="google-site-verification" content="SvFk3tLw_3gOdMyyMfcm_BbX1eNNk76c05FvIHo3LcU">
  <meta name="HandheldFriendly" content="True">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="generator" content="hexo">
 <meta name="author" content="ChrisPark">
-<meta name="description" content="the llatter part of post application">
+<meta name="description" content="github블로그 만들기">
 <!--hexo-auto-canonical-->
  
 <link rel="canonical" href="https://christianpark.github.io">
 <!--hexo-auto-canonical-->
   
   
-	<meta name="keywords" content="hexo post">
+	<meta name="keywords" content="hexo, github, 블로그, 깃허브, 깃헙, 헥소, hexo-casper">
 	
 
 	
@@ -61,14 +59,14 @@
 
 	<meta property="og:site_name" content="Chris Blog">
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="Archives | Chris Blog">
-	<meta property="og:description" content="the llatter part of post application">
-	<meta property="og:url" content="http://christianpark.github.io/2019/01/09/scaffoldtest/">
+	<meta property="og:title" content="github를 이용한 hexo 블로그 만들기 (2) - casper Theme | Chris Blog">
+	<meta property="og:description" content="github블로그 만들기">
+	<meta property="og:url" content="http://christianpark.github.io/2019/01/15/makeHexoBlog-02/">
 
 	
-	<meta property="article:published_time" content="2019-01-09T23:01:00+08:00"> 
+	<meta property="article:published_time" content="2019-01-15T19:01:00+08:00"> 
 	<meta property="article:author" content="ChrisPark">
-	<meta property="article:published_first" content="Chris Blog, /2019/01/09/scaffoldtest/">
+	<meta property="article:published_first" content="Chris Blog, /2019/01/15/makeHexoBlog-02/">
 	
 </head>
 <body class="post-template">
@@ -145,26 +143,54 @@
     <div class="inner">
         <header class="post-full-header">
             <section class="post-full-meta">
-                <time class="post-full-meta-date" datetime="2019-01-09T14:59:38.000Z" itemprop="datePublished">
-                    2019-01-9
+                <time class="post-full-meta-date" datetime="2019-01-15T10:43:19.000Z" itemprop="datePublished">
+                    2019-01-15
                 </time>
                 
                 <span class="date-divider">/</span>
                 
-                <a href="/categories/test/">test</a>&nbsp;&nbsp;
+                <a href="/categories/hexo/">hexo</a>&nbsp;&nbsp;
                 
                 
             </section>
-            <h1 class="post-full-title">scaffoldtest</h1>
+            <h1 class="post-full-title">github를 이용한 hexo 블로그 만들기 (2) - casper Theme</h1>
         </header>
         <article class="post-full ">
             
-            <figure class="post-full-image" style="background-image: url(/img/tags.jpg)">
+            <figure class="post-full-image" style="background-image: url(/img/hexogit-inner.jpg)">
             </figure>
             
             <section class="post-full-content">
                 <div id="lightgallery" class="markdown-body">
-                    
+                    <p>저번 시간에 repository 생성까지 알아봤습니다. 이번엔 repo 생성 후 선택한 테마를 클론하는 방법과 나의 블로그가 잘 생성되었는지 확인까지 해보도록 할게요.  </p>
+<h2 id="들어가기"><a href="#들어가기" class="headerlink" title="들어가기"></a>들어가기</h2><ol>
+<li>선택한 테마 클론하기<br>선택한 테마를 클론하는 방법은 몇가지가 존재합니다.<br>아래의 사진에서 <strong>Clone or download</strong>를 클릭하면 여러 방법으로 클론할 수 있어요.   </li>
+</ol>
+<ul>
+<li>github URL을 복사해서 GUI 프로그램을 이용한 클론방법.  </li>
+<li>github Desktop을 이용한 로컬에 저장하는 방법.   </li>
+<li>ZIP 파일을 다운받아서 로컬에 저장하는 방법.  </li>
+<li>테마를 가진 주인의 레포지토리를 <em>Fork</em> 해서 등록하는 방법.<br><img alt="클론하는방법" style="width:363px; height:204px;" class="post-img b-lazy" href="/ing/clone_01" data-src="/ing/clone_01">   <hr>
+</li>
+</ul>
+<p>저는 github GUI 프로그램인 소스트리와 명령프롬프트(gitBash)를 이용해서 클론했어요.  </p>
+<ul>
+<li>소스트리를 다운받고, 본인의 깃허브 아이디와 연동합니다. 연동 한 후에,  <strong>New tap</strong>을 열어 <strong>Create</strong>를 합니다. 목적지의 경로는 본인이 만들 블로그의 로컬 디스크 경로입니다.<br>계정에는 이미 <em>username.github.io</em> 라는 저장소가 있기 때문에 체크를 해제합니다.  </li>
+</ul>
+<p>블로그를 만들 폴더의 경로를 정해서 생성해주세요. ex) D:\GitHubPages<br><img alt="소스트리세팅1" class="post-img b-lazy" href="/img/sourceTreeSetting_01.png" data-src="/img/sourceTreeSetting_01.png">  </p>
+<p>폴더를 생성했으면,  설정에 들어가서 원격이름을 <strong>origin</strong> URL/경로를 <strong><a href="https://github.com/본인아이디(이름).github.io" target="_blank" rel="noopener">https://github.com/본인아이디(이름).github.io</a></strong> 라고 칩니다.<br><img alt="소스트리세팅2" class="post-img b-lazy" href="/img/sourceTreeSetting_02.png" data-src="/img/sourceTreeSetting_02.png">  </p>
+<ul>
+<li>생성 후에 gitBash를 켜줍니다. 처음 생성할때는 username 과 useremail을 통해 사용자 등록이 필요합니다.   <figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user<span class="selector-class">.name</span> <span class="string">"깃허브에설정한나의이름"</span>  </span><br><span class="line">$ git config --global user<span class="selector-class">.email</span> <span class="string">"깃허브에설정한나의이메일"</span></span><br><span class="line">```  </span><br><span class="line">이후, 깃헙에 접속하면 새로운 프로젝트를 시작하거나, 기존에 가지고 있던 프로젝트 리스트들이 나옵니다. (현재는 따로 나오는거같진 않더군요.)   </span><br><span class="line"></span><br><span class="line"><span class="number">2</span>. hexo 설치하기  </span><br><span class="line">터미널을 실행시킵니다. git을 설치하게 되면 바탕화면 우클릭으로 Git Bash도 사용할 수 있습니다.  </span><br><span class="line"><span class="string">'$'</span> 을 제외한 명령어를 입력해 주세요.</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>$ npm install -g hexo-cli<br><figure class="highlight erlang"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">이후, 블로그를 생성할 자신이 원하는 폴더 위치로 이동합니다.</span><br></pre></td></tr></table></figure></p>
+<p>ex) cd d:\gitHubPages<br><figure class="highlight clean"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">```</span><br><span class="line">$ hexo init 블로그이름</span><br><span class="line">```  </span><br><span class="line">입력하면 본인이 원한는 위치에 블로그 이름으로 된 폴더가 생성이 됩니다. 저는 **D:\gitHubPages\폴더이름** 이 되겠죠?  </span><br><span class="line">현재 위치에서 블로그이름 폴더 안으로 다시 한번 들어가서 npm과 테마를 설치합니다.</span><br></pre></td></tr></table></figure></p>
+<p>$ cd 블로그이름<br>$ npm install<br>$ git clone <a href="https://github.com/xzhih/hexo-theme-casper.git" target="_blank" rel="noopener">https://github.com/xzhih/hexo-theme-casper.git</a><br><figure class="highlight erlang"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">그리고 가장 중요한 deploy 설치를 해줍니다.</span><br></pre></td></tr></table></figure></p>
+<p>$ npm install hexo-deployer-git –save<br><code>`</code>  </p>
+<blockquote>
+<p>npm이란 Node Pakage Manager의 줄임표현이며 node.js로 만들어진 pakage(module)을 관리해주는 툴입니다.<br>원문:<a href="https://docs.npmjs.com/about-npm/index.html" target="_blank" rel="noopener">노드js원문</a><br>추가내용:<a href="https://m.blog.naver.com/magnking/220961896609" target="_blank" rel="noopener">노드js설명</a></p>
+</blockquote>
+
                 </div>
             </section>
         </article>
@@ -174,14 +200,10 @@
     <div style="height: 4vw;width: 100%"></div>
     <nav id="gobottom" class="pagination">
         
-        <a class="prev-post" title="2019-01-11" href="/2019/01/11/2019-01-11/">
-            ← 2019-01-11
-        </a>
-        
         <span class="prev-next-post">•</span>
         
-        <a class="next-post" title="2019-01-09" href="/2019/01/09/2019-01-09/">
-            2019-01-09 →
+        <a class="next-post" title="github과 hexo를 이용해 블로그 만들기 (1) - casper Theme" href="/2019/01/12/makeHexoBlog_01/">
+            github과 hexo를 이용해 블로그 만들기 (1) - casper Theme →
         </a>
         
     </nav>
@@ -208,7 +230,7 @@
         </a>
     </div>
     <div class="toc-main">
-        
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#들어가기"><span class="toc-text">들어가기</span></a></li></ol>
     </div>
 </div>
 
@@ -365,7 +387,7 @@
         </a>
     </div>
     <span class="floating-header-divider">&mdash;</span>
-    <div class="floating-header-title">scaffoldtest</div>
+    <div class="floating-header-title">github를 이용한 hexo 블로그 만들기 (2) - casper Theme</div>
     <progress class="progress" value="0">
         <div class="progress-container">
             <span class="progress-bar"></span>

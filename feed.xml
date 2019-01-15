@@ -6,7 +6,7 @@
   <link href="/feed.xml" rel="self"/>
   
   <link href="http://christianpark.github.io/"/>
-  <updated>2019-01-13T10:12:02.485Z</updated>
+  <updated>2019-01-15T11:52:58.342Z</updated>
   <id>http://christianpark.github.io/</id>
   
   <author>
@@ -17,13 +17,13 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>github과 hexo를 이용해 블로그 만들기 (1)</title>
-    <link href="http://christianpark.github.io/2019/01/12/makeHexoBlog/"/>
-    <id>http://christianpark.github.io/2019/01/12/makeHexoBlog/</id>
-    <published>2019-01-12T14:57:20.000Z</published>
-    <updated>2019-01-13T10:12:02.485Z</updated>
+    <title>github를 이용한 hexo 블로그 만들기 (2) - casper Theme</title>
+    <link href="http://christianpark.github.io/2019/01/15/makeHexoBlog-02/"/>
+    <id>http://christianpark.github.io/2019/01/15/makeHexoBlog-02/</id>
+    <published>2019-01-15T10:43:19.000Z</published>
+    <updated>2019-01-15T11:52:58.342Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="알아야-할-사전지식"><a href="#알아야-할-사전지식" class="headerlink" title="알아야 할 사전지식"></a>알아야 할 사전지식</h2><h3 id="1-GithibPages"><a href="#1-GithibPages" class="headerlink" title="1. GithibPages"></a>1. GithibPages</h3><p>기본적으로  <strong>gitHubPages</strong>를 생성 알아야 깃헙 블로그를 제작할 수 있습니다.     </p><h3 id="2-HTML-CSS-Javascript"><a href="#2-HTML-CSS-Javascript" class="headerlink" title="2. HTML, CSS, Javascript"></a>2. HTML, CSS, Javascript</h3><p>HTML 과 CSS, Javascript를 알아야 본인이 원하는대로 수정할 수 있습니다.</p><h3 id="3-NodeJs"><a href="#3-NodeJs" class="headerlink" title="3. NodeJs"></a>3. NodeJs</h3><p>대부분의 플러그인을 NodeJs를 통해 설치하기 때문에 약간의 지식을 알아야합니다.  </p><blockquote><p>사이트: <a href="https://nodejs.org" target="_blank" rel="noopener">NodeJs</a>      </p></blockquote><h3 id="4-MarkDown문법"><a href="#4-MarkDown문법" class="headerlink" title="4. MarkDown문법"></a>4. MarkDown문법</h3><p>마크다운 문법은 텍스트 기반의 마크업 언얼로 2004년 존그루버에 의해 만들어졌습니다. HTML의 마크업 언어를 알고 계신다면 쉽고 빠르게 컨텐츠 작성이 가능합니다.  </p><blockquote><p>사이트: <a href="https://gist.github.com/ihoneymon/652be052a0727ad59601" target="_blank" rel="noopener">MarkDown</a> 에서 마크다운을 배울 수 있습니다. </p></blockquote><hr><h2 id="들어가기"><a href="#들어가기" class="headerlink" title="들어가기"></a>들어가기</h2><p>저는 HEXO의 Casper 라는 테마를 선택했습니다. Jekyll의 Jasper 시리즈와 똑같은 테마에요!!<br>사실 jekyll로 하려다가 Deployment 하는 도중에 고정경로인 제 블로그 주소가 계속 local로 잡히는 바람에 해결하지 못하고 Hexo로 옮겼어요…ㅠㅠ  </p><ol><li>github 가입하기  <blockquote><p><a href="https://github.com" target="_blank" rel="noopener">‘Github’바로가기</a>  </p></blockquote></li></ol><p><img src="/img/github-signUp.png" alt="깃허브회원가입" style="width:300px; height:430px; "><br>우측 상단의 sign up 버튼을 누르거나 화면의 회원가입 절차를 걸쳐 가입을 하면 좌측 상단 <strong><em>Repositories</em></strong>라는 탭에서 New를 클릭 합니다.  </p><p>그럼 아래의 그림처럼 나오는데, Repositiory의 이름을 본인의 name.github.io로 만들어야 정상적인 페이지가 생성됩니다.  (저는 이미 있기 때문에 경고표시가 뜹니다.)<br><img src="/img/makeNewRepo.png" alt="makenewrepo"><br>Repo 이름을 정한 후에 레포를 생성합니다. <em>레포지토리</em>를  생성하게 되면 아무것도 없는 빈 저장소가 본인의 계정에 생기게 되고, 앞으로 이 저장소 안에 블로그 테마와 수정한 코드들을 버전관리하게 됩니다.  다음 포스트에서는 테마를 선택하고, 적용한 테마를 나의 블로그에 올리는 방법을 알아보도록 할게요.</p><p><mark style="font-size:20px; background-color:rgba(190,290,50,0.3); ">다음편에서 뵙겠습니다~!!</mark></p>]]></content>
+    <content type="html"><![CDATA[<p>저번 시간에 repository 생성까지 알아봤습니다. 이번엔 repo 생성 후 선택한 테마를 클론하는 방법과 나의 블로그가 잘 생성되었는지 확인까지 해보도록 할게요.  </p><h2 id="들어가기"><a href="#들어가기" class="headerlink" title="들어가기"></a>들어가기</h2><ol><li>선택한 테마 클론하기<br>선택한 테마를 클론하는 방법은 몇가지가 존재합니다.<br>아래의 사진에서 <strong>Clone or download</strong>를 클릭하면 여러 방법으로 클론할 수 있어요.   </li></ol><ul><li>github URL을 복사해서 GUI 프로그램을 이용한 클론방법.  </li><li>github Desktop을 이용한 로컬에 저장하는 방법.   </li><li>ZIP 파일을 다운받아서 로컬에 저장하는 방법.  </li><li>테마를 가진 주인의 레포지토리를 <em>Fork</em> 해서 등록하는 방법.<br><img src="/ing/clone_01" alt="클론하는방법" style="width:363px; height:204px;">   <hr></li></ul><p>저는 github GUI 프로그램인 소스트리와 명령프롬프트(gitBash)를 이용해서 클론했어요.  </p><ul><li>소스트리를 다운받고, 본인의 깃허브 아이디와 연동합니다. 연동 한 후에,  <strong>New tap</strong>을 열어 <strong>Create</strong>를 합니다. 목적지의 경로는 본인이 만들 블로그의 로컬 디스크 경로입니다.<br>계정에는 이미 <em>username.github.io</em> 라는 저장소가 있기 때문에 체크를 해제합니다.  </li></ul><p>블로그를 만들 폴더의 경로를 정해서 생성해주세요. ex) D:\GitHubPages<br><img src="/img/sourceTreeSetting_01.png" alt="소스트리세팅1">  </p><p>폴더를 생성했으면,  설정에 들어가서 원격이름을 <strong>origin</strong> URL/경로를 <strong><a href="https://github.com/본인아이디(이름).github.io" target="_blank" rel="noopener">https://github.com/본인아이디(이름).github.io</a></strong> 라고 칩니다.<br><img src="/img/sourceTreeSetting_02.png" alt="소스트리세팅2">  </p><ul><li>생성 후에 gitBash를 켜줍니다. 처음 생성할때는 username 과 useremail을 통해 사용자 등록이 필요합니다.   <figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user<span class="selector-class">.name</span> <span class="string">"깃허브에설정한나의이름"</span>  </span><br><span class="line">$ git config --global user<span class="selector-class">.email</span> <span class="string">"깃허브에설정한나의이메일"</span></span><br><span class="line">```  </span><br><span class="line">이후, 깃헙에 접속하면 새로운 프로젝트를 시작하거나, 기존에 가지고 있던 프로젝트 리스트들이 나옵니다. (현재는 따로 나오는거같진 않더군요.)   </span><br><span class="line"></span><br><span class="line"><span class="number">2</span>. hexo 설치하기  </span><br><span class="line">터미널을 실행시킵니다. git을 설치하게 되면 바탕화면 우클릭으로 Git Bash도 사용할 수 있습니다.  </span><br><span class="line"><span class="string">'$'</span> 을 제외한 명령어를 입력해 주세요.</span><br></pre></td></tr></table></figure></li></ul><p>$ npm install -g hexo-cli<br><figure class="highlight erlang"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">이후, 블로그를 생성할 자신이 원하는 폴더 위치로 이동합니다.</span><br></pre></td></tr></table></figure></p><p>ex) cd d:\gitHubPages<br><figure class="highlight clean"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">```</span><br><span class="line">$ hexo init 블로그이름</span><br><span class="line">```  </span><br><span class="line">입력하면 본인이 원한는 위치에 블로그 이름으로 된 폴더가 생성이 됩니다. 저는 **D:\gitHubPages\폴더이름** 이 되겠죠?  </span><br><span class="line">현재 위치에서 블로그이름 폴더 안으로 다시 한번 들어가서 npm과 테마를 설치합니다.</span><br></pre></td></tr></table></figure></p><p>$ cd 블로그이름<br>$ npm install<br>$ git clone <a href="https://github.com/xzhih/hexo-theme-casper.git" target="_blank" rel="noopener">https://github.com/xzhih/hexo-theme-casper.git</a><br><figure class="highlight erlang"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">그리고 가장 중요한 deploy 설치를 해줍니다.</span><br></pre></td></tr></table></figure></p><p>$ npm install hexo-deployer-git –save<br><code>`</code>  </p><blockquote><p>npm이란 Node Pakage Manager의 줄임표현이며 node.js로 만들어진 pakage(module)을 관리해주는 툴입니다.<br>원문:<a href="https://docs.npmjs.com/about-npm/index.html" target="_blank" rel="noopener">노드js원문</a><br>추가내용:<a href="https://m.blog.naver.com/magnking/220961896609" target="_blank" rel="noopener">노드js설명</a></p></blockquote>]]></content>
     
     <summary type="html">
     
@@ -34,7 +34,29 @@
       <category term="hexo" scheme="http://christianpark.github.io/categories/hexo/"/>
     
     
-      <category term="hexo, blog" scheme="http://christianpark.github.io/tags/hexo-blog/"/>
+      <category term="hexo" scheme="http://christianpark.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>github과 hexo를 이용해 블로그 만들기 (1) - casper Theme</title>
+    <link href="http://christianpark.github.io/2019/01/12/makeHexoBlog_01/"/>
+    <id>http://christianpark.github.io/2019/01/12/makeHexoBlog_01/</id>
+    <published>2019-01-12T14:57:20.000Z</published>
+    <updated>2019-01-15T11:51:30.422Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="알아야-할-사전지식"><a href="#알아야-할-사전지식" class="headerlink" title="알아야 할 사전지식"></a>알아야 할 사전지식</h2><h3 id="1-GithibPages"><a href="#1-GithibPages" class="headerlink" title="1. GithibPages"></a>1. GithibPages</h3><p>기본적으로  <strong>gitHubPages</strong>를 생성 알아야 깃헙 블로그를 제작할 수 있습니다.     </p><h3 id="2-HTML-CSS-Javascript"><a href="#2-HTML-CSS-Javascript" class="headerlink" title="2. HTML, CSS, Javascript"></a>2. HTML, CSS, Javascript</h3><p>HTML 과 CSS, Javascript를 알아야 본인이 원하는대로 수정할 수 있습니다.</p><h3 id="3-NodeJs"><a href="#3-NodeJs" class="headerlink" title="3. NodeJs"></a>3. NodeJs</h3><p>대부분의 플러그인을 NodeJs를 통해 설치하기 때문에 약간의 지식을 알아야합니다.  </p><blockquote><p>사이트: <a href="https://nodejs.org" target="_blank" rel="noopener">NodeJs</a>      </p></blockquote><h3 id="4-MarkDown문법"><a href="#4-MarkDown문법" class="headerlink" title="4. MarkDown문법"></a>4. MarkDown문법</h3><p>마크다운 문법은 텍스트 기반의 마크업 언얼로 2004년 존그루버에 의해 만들어졌습니다. HTML의 마크업 언어를 알고 계신다면 쉽고 빠르게 컨텐츠 작성이 가능합니다.  </p><blockquote><p>사이트: <a href="https://gist.github.com/ihoneymon/652be052a0727ad59601" target="_blank" rel="noopener">MarkDown</a> 에서 마크다운을 배울 수 있습니다. </p></blockquote><hr><h2 id="들어가기"><a href="#들어가기" class="headerlink" title="들어가기"></a>들어가기</h2><p>저는 HEXO의 Casper 라는 테마를 선택했습니다. Jekyll의 Jasper 시리즈와 똑같은 테마에요!!<br>사실 jekyll로 하려다가 Deployment 하는 도중에 고정경로인 제 블로그 주소가 계속 local로 잡히는 바람에 해결하지 못하고 Hexo로 옮겼어요…ㅠㅠ  </p><ol><li>github 가입하기  <blockquote><p><a href="https://github.com" target="_blank" rel="noopener">‘Github’바로가기</a>  </p></blockquote></li></ol><p><img src="/img/github-signUp.png" alt="깃허브회원가입" style="width:300px; height:430px; "><br>우측 상단의 sign up 버튼을 누르거나 화면의 회원가입 절차를 걸쳐 가입을 하면 좌측 상단 <strong><em>Repositories</em></strong>라는 탭에서 New를 클릭 합니다.  </p><p>그럼 아래의 그림처럼 나오는데, Repositiory의 이름을 본인의 name.github.io로 만들어야 정상적인 페이지가 생성됩니다.  (저는 이미 있기 때문에 경고표시가 뜹니다.)<br><img src="/img/makeNewRepo.png" alt="makenewrepo"><br>Repo 이름을 정한 후에 레포를 생성합니다. <em>레포지토리</em>를  생성하게 되면 아무것도 없는 빈 저장소가 본인의 계정에 생기게 되고, 앞으로 이 저장소 안에 블로그 테마와 수정한 코드들을 버전관리하게 됩니다.  </p><ol start="2"><li>node.js 설치하기  <blockquote><p><a href="https://nodejs.org/ko/download/" target="_blank" rel="noopener">‘Node.js’다운로드</a><br>자신의 컴퓨터에 맞는 플랫폼을 설치하세요.<br><img src="/img/nodejsInstall.png" alt="노드js설치"><br>다음 포스트에서는 테마를 선택하고, 적용한 테마를 나의 블로그에 올리는 방법을 알아보도록 할게요.  </p></blockquote></li></ol><p><mark style="font-size:20px; background-color:rgba(190,290,50,0.3); ">다음편에서 뵙겠습니다~!!</mark>  </p>]]></content>
+    
+    <summary type="html">
+    
+      github블로그 만들기
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://christianpark.github.io/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="http://christianpark.github.io/tags/hexo/"/>
     
   </entry>
   
