@@ -17,14 +17,14 @@
     </url>
 
     <url>
-        <loc>http://christianpark.github.io/tags/hexo/</loc>
+        <loc>http://christianpark.github.io/tags/hexo-blog/</loc>
         <lastmod>2019-01-13T10:12:02.485Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://christianpark.github.io/tags/hexo-blog/</loc>
+        <loc>http://christianpark.github.io/tags/hexo/</loc>
         <lastmod>2019-01-13T10:12:02.485Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
