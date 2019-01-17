@@ -215,7 +215,7 @@ em {
 
 .markdown-body p.tip em,
 .markdown-body p.success em {
-    color: #34495e;
+    color: #34495e; 
 }
 
 .markdown-body p.tip {
